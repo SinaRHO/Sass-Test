@@ -1,0 +1,81 @@
+$Background-black: #000;
+$background-cyan:#00c1ae;
+$background-yelllowgreen:#92d822;
+
+
+.btn{
+    font-size: 14px;
+    width: 80px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: $background-cyan;
+    border: solid 1px $background-cyan;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.btn-tags--link{
+    padding-inline: .8rem;
+}
+.btn--health{
+    color: white;
+    text-decoration: none;
+    &:hover{
+        box-shadow: -2px 2px 10px #00c1ae;
+        transition: all .3s;
+    }
+}
+.btn-techno{
+    color: white;
+    &:hover{
+        box-shadow: -2px 2px 10px #00c1ae;
+        transition: all .3s;
+    }
+}
+.btn-active{
+    color: white ;
+    &:hover{
+        box-shadow: -2px 2px 10px #92d822;
+        transition: all .3s;
+    }
+}
+.btn--active{
+    color: white !important;
+    background-color: $background-yelllowgreen;
+    border: solid 1px $background-yelllowgreen;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btn-busines{
+    background-color: #e8391e;
+    border: #e8391e;
+    color: white !important;
+        &:hover{
+            box-shadow: -2px 2px 10px #e8391e;
+        }
+}
+.btn-ins{
+    background-color: #0061e0;
+    border: #0061e0;
+    width: 100px;
+    color: white;
+    &:hover{
+        box-shadow: -2px 2px 10px #0061e0;
+        transition: all .3s;
+    }
+}
+.btn-sport{
+    background-color: #20b200;
+    border: #20b200;
+    color: white;
+    &:hover{
+        box-shadow: -2px 2px 10px #20b200;
+        transition: all .3s;
+    }
+}

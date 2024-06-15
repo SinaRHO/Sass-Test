@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <link rel="stylesheet" href="Assets/Fonts/fontawesome-pro-6.5.0-web/css/all.min.css">
+  <link rel="stylesheet" href="Assets/css/SCSS/off-canvas/hc-offcanvas-nav.css">
+  <link rel="stylesheet" href="Assets/css/splide.min.css">
+  <link rel="icon" href="Assets/img/WordPress_blue_logo.svg.png" type="image/x-icon">
+  <title>Techno</title>
+</head>
+
+<body>
+  <header class="header-top--1">
+    <div class="container">
+      <div class="flex-to--inline align-center col-md-12">
+        <a class="logo-header-link--dark dark" href="#"><img class="logo--header logo--header--dark"
+            src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/logo_n4.png"
+            alt="تصویر در مرورگر شما پشتیبانی نمیشود"></a>
+        <a class="logo-header-link--light light" href="#"><img class="logo--header logo--header--light"
+            src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/logo_w4.png"
+            alt="تصویر در مرورگر شما پشتیبانی نمیشود"></a>
+        <ul class="navbar--top" style="margin-top: 0; margin-bottom: 0;">
+          <div class="dropdown">
+            <li class="navbar-link--top">
+              <a class="dropbtn" href="#">Demos <i class="fa-duotone fa-chevron-down fa-chevron-down--nav"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a class="link-last" href="#">Link 3</a>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="navbar-link--top">
+              <a class="dropbtn" href="#">Pages <i class="fa-duotone fa-chevron-down fa-chevron-down--nav"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a class="link-last" href="#">Link 3</a>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="navbar-link--top">
+              <a class="dropbtn" href="#">Features <i class="fa-duotone fa-chevron-down fa-chevron-down--nav"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a class="link-last" href="#">Link 3</a>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="navbar-link--top">
+              <a class="dropbtn" href="#">Busines <i class="fa-duotone fa-chevron-down fa-chevron-down--nav"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a class="link-last" href="#">Link 3</a>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="navbar-link--top">
+              <a class="dropbtn" href="#">Active <i class="fa-duotone fa-chevron-down fa-chevron-down--nav"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a class="link-last" href="#">Link 3</a>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="navbar-link--top">
+              <a class="dropbtn" href="#">Shop <i
+                  class="fa-duotone fa-chevron-down fa-chevron-down--last fa-chevron-down--nav"></i></a>
+              <span class="jl_menu_lb" style="color: #dd3333 !important;"><span class="jl_lb_ar"
+                  style="background: #dd3333 !important; border-radius: 100px;"></span>Now</span>
+            </li>
+            <div class="dropdown-content dropdown-content--last">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a class="link-last" href="#">Link 3</a>
+            </div>
+          </div>
+
+        </ul>
+        <ul class="navbar">
+          <li class="navbar-link">
+            <a href="#">Demos <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li class="navbar-link">
+            <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li class="navbar-link">
+            <a href="#">Features <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li class="navbar-link">
+            <a href="#">Busines <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li class="navbar-link">
+            <a href="#">Active <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li class="navbar-link">
+            <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+        </ul>
+        <div class="hamb-icons">
+          <input type="checkbox" id="mode" class="form-check-input" hidden>
+          <label for="mode" class="form-check-label light-label"><i
+              class="fa-light fa-sun light-mode light--mode"></i></label>
+          <label for="mode" class="form-check-label dark-label"><i
+              class="fa-solid fa-moon-stars dark--mode"></i></label>
+          <a class="navbar-shop--icons" href="#"><i class="fa-light fa-bag-shopping fa-lg"></i>
+            <span class="shop--list">0</span></a>
+          <a class="navbar-shop--icons button open-button" data-custom-open="modal-1" role="button" href="#"><i
+              class="fa-light fa-magnifying-glass fa-lg " style="margin-right: 1rem;"></i></a>
+          <a class="navbar-shop--icons toggle hc-nav-trigger hc-nav-1" href="#" role="button" aria-label="Open Menu"
+            aria-controls="hc-nav-1" aria-expanded="false">
+            <i class="fa-solid fa-bars fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <section>
+    <div class="container">
+      <div class="d-flex-imp" style="justify-content: center;">
+        <span style="font-size: 2rem; margin-top: 3rem;">Techno</span>
+      </div>
+      <div class="d-flex-imp techno-top--text">
+        Etiam vitae dapibus rhoncus. Eget etiam aenean nisi montes felis pretium
+      </div>
+      <div class="d-flex-imp techno-top--text">
+        donec veni. Pede vidi condimentum et aenean
+      </div>
+      <div class="flex-to--inline">
+        <div class="col-md-8">
+          <div>
+            <div class="jl_m_right_w jl_l_hm flex-to--inline--techno">
+              <div class="jl_m_right_img jl_radus_e">
+
+                <a href="https://jellywp.com/wp/shareblock02/have-good-food-taste-then-enjoy-reading/">
+                  <img loading="lazy" width="100%" height="235" style="border-radius: 20px; margin-bottom: 1rem;"
+                    src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-500x368.jpg"
+                    class="attachment-shareblock_featurelist size-shareblock_featurelistjl-lazyload wp-post-image ls-is-cached lazyloaded"
+                    alt="" decoding="async"
+                    data-src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-500x368.jpg"
+                    data-srcset="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-500x368.jpg 500w, https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-20x15.jpg 20w"
+                    srcset="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-500x368.jpg 500w, https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-20x15.jpg 20w">
+                </a>
+              </div>
+              <div class="jl_m_right_content--techno">
+                <span class="jl_f_cat jl_lb2"><a class="btn btn-techno post-category-color-text"
+                    href="https://jellywp.com/wp/shareblock02/category/techno/"><span
+                      style="background:#009ba0"></span>Techno</a></span>
+                <h2 class="entry-title"> <a
+                    href="https://jellywp.com/wp/shareblock02/have-good-food-taste-then-enjoy-reading/"
+                    tabindex="-1">Have good food taste then enjoy reading</a></h2>
+                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem...
+                </p>
+                <span class="jl_post_meta"><span class="jl_author_img_w"><a class="creator--name"
+                      style=" padding-right: 1rem;" href="https://jellywp.com/wp/shareblock02/author/dsite/"
+                      title="Posts by Michael" rel="author">Michael</a></span><span class="creator--name"
+                    style=" padding-right: 1rem;">July 24, 2016</span><span class="post-read-time">1 Mins
+                    read</span></span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 2rem;">
+            <div class="jl_m_right_w jl_l_hm flex-to--inline--techno">
+              <div class="jl_m_right_img jl_radus_e" style="display: flex; justify-content: center;">
+
+                <img width="100%" height="235" style="border-radius: 20px; margin-bottom: 1rem;"
+                  src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/marisa-harris-jciv7VYsfuA-unsplash-500x350.jpg"
+                  alt="">
+              </div>
+              <div class="jl_m_right_content--techno">
+                <div class="d-flex-imp">
+                  <span class="jl_f_cat jl_lb2" style="margin-right: .5rem;"><a
+                      class="btn btn-active post-category-color-text"
+                      style="background-color: #92d822; border-color: #92d822;"
+                      href="https://jellywp.com/wp/shareblock02/category/techno/">Active</a></span>
+                  <span class="jl_f_cat jl_lb2"><a class="btn btn-techno post-category-color-text"
+                      href="https://jellywp.com/wp/shareblock02/category/techno/">Techno</a></span>
+                </div>
+                <h2 class="entry-title"> <a
+                    href="https://jellywp.com/wp/shareblock02/have-good-food-taste-then-enjoy-reading/"
+                    tabindex="-1">the Best Place to Celebrate Birthday and Music</a></h2>
+                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem...
+                </p>
+                <span class="jl_post_meta"><span class="jl_author_img_w"><a class="creator--name"
+                      style=" padding-right: 1rem;" href="https://jellywp.com/wp/shareblock02/author/dsite/"
+                      title="Posts by Michael" rel="author">Michael</a></span><span class="creator--name"
+                    style=" padding-right: 1rem;">July 24, 2016</span><span class="post-read-time">1 Mins
+                    read</span></span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 2rem;">
+            <div class="jl_m_right_w jl_m_right_w-last jl_l_hm flex-to--inline--techno">
+              <div class="jl_m_right_img jl_radus_e" style="display: flex; justify-content: center;">
+                <img width="100%" height="235px" style="border-radius: 20px; margin-bottom: 1rem;"
+                  src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2014/07/jorgen-hendriksen-gqQs7KThYAs-unsplash-500x368.jpg"
+                  alt="">
+              </div>
+              <div class="jl_m_right_content--techno">
+                <span class="jl_f_cat jl_lb2"><a class="btn btn-techno post-category-color-text"
+                    href="https://jellywp.com/wp/shareblock02/category/techno/"><span
+                      style="background:#009ba0"></span>Techno</a></span>
+                <h2 class="entry-title"> <a
+                    href="https://jellywp.com/wp/shareblock02/have-good-food-taste-then-enjoy-reading/" tabindex="-1">4
+                    Fresh Ways To Style Leather Shorts For Spring</a></h2>
+                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem...
+                </p>
+                <span class="jl_post_meta"><span class="jl_author_img_w"><a class="creator--name"
+                      style=" padding-right: 1rem;" href="https://jellywp.com/wp/shareblock02/author/dsite/"
+                      title="Posts by Michael" rel="author">Michael</a></span><span class="creator--name"
+                    style=" padding-right: 1rem;">July 24, 2016</span><span class="post-read-time">1 Mins
+                    read</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="col-md-4 col-xs-12">
+          <div style="position: sticky; top: 6rem;">
+            <div class="ins-text">
+              INSPIRATION
+            </div>
+            <div class="aside--1">
+              <a class="text--side" href="#">
+                <img class="image-aside--1"
+                  src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/noah-buscher-8A7fD6Y5VF8-unsplash-500x350.jpg"
+                  width="100%" height="100%" alt="Your Brower Doesnt Support this Picture">
+                <span class="number--1">1</span>
+                <div class="techno--text">
+                  <p>Have good food taste then enjoy reading</p>
+                  <div class="d-flex-imp card-creator">
+                    <span>michael</span>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>july 24,2016</span>
+                  </div>
+                  <a href="Techno.html" target="_blank"></a><a class="btn-techno btn techno-aside--position"
+                    href="Techno.html" target="_blank">Techno</a>
+                </div>
+              </a>
+            </div>
+            <div class="aside--2">
+              <a class="text--side" href="#">
+                <img class="image-aside--2"
+                  src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/marisa-harris-jciv7VYsfuA-unsplash-500x350.jpg"
+                  width="100%" height="100%" alt="Your Brower Doesnt Support this Picture">
+                <span class="number--2">2</span>
+                <div class="techno--text">
+                  <p>the Best Place to Celebrate Birthday and Music</p>
+                  <div class="d-flex-imp card-creator">
+                    <span>michael</span>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>july 24,2016</span>
+                  </div>
+                  <a href="Techno.html" target="_blank"></a><a class="btn-techno btn techno-aside--position"
+                    href="Techno.html" target="_blank">Techno</a>
+                  <a class="btn-active btn btn--active active-aside--position--2" href="#" style="margin-left: 2rem;">Active</a>
+                </div>
+              </a>
+            </div>
+            <div class="catg-text">
+              Categories
+            </div>
+            <div class="aside-catg--1">
+              <div style="height: 108px;">
+                <a href="#">
+                  <img class="image-aside-catg--1"
+                    src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/ethan-haddox-wBgG_tj-sq8-unsplash-450x450.jpg"
+                    width="100%" height="80px" alt="Your browser doesnt support this picture">
+                  <div class="image-aside--bg">
+                </a><a class="catg--links" href="#">Active</a>
+                <a href="#"><span class="number-catg--1">5</span></a>
+              </div>
+            </div>
+            <div class="aside-catg--2">
+              <a href="#">
+                <img class="image-aside-catg--2"
+                  src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/kevin-laminto-Drwgx2SufEc-unsplash-450x450.jpg"
+                  width="100%" height="80px" alt="Your Brower Doesnt Support this Picture">
+                <a class="catg--links" href="#">Busines</a>
+                <a href="#"><span class="number-catg--2">10</span></a>
+              </a>
+            </div>
+            <div class="aside-catg--3">
+              <a href="#">
+                <img class="image-aside-catg--3"
+                  src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/anna-tarazevich-0rOzLdk8-MI-unsplash-450x450.jpg"
+                  width="100%" height="80px" alt="Your Brower Doesnt Support this Picture">
+                <a class="catg--links" href="#">Health</a>
+                <a href="#"><span class="number-catg--3">9</span></a>
+              </a>
+            </div>
+            <div class="today-news">
+              <div class="catg-text">
+                Todary Stories
+              </div>
+              <div class="row-reverse">
+                <div class="w-70">
+                  <a href="#">
+                    <h3>Life Lately + My Favorite Shoes for the New Year</h3>
+                  </a>
+                  <div><a href="#"><span>Michael</span></a>
+                    <span
+                      style="margin-left: 5px; margin-right: 5px; font-size: 1.2rem; top: -4px; position: relative;">.</span>
+                    <span>July 23, 2016</span>
+                  </div>
+                </div>
+                <div class="w-30">
+                  <a href="#">
+                    <img width="100%"
+                      src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/arun-sharma-qVxEvbkzr5Q-unsplash-450x450.jpeg"
+                      alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="row-reverse">
+                <div class="w-70">
+                  <a href="#">
+                    <h3>New Year Inspo – What I’m loving so far in 2019!</h3>
+                  </a>
+                  <div><a href="#"><span>Michael</span></a>
+                    <span
+                      style="margin-left: 5px; margin-right: 5px; font-size: 1.2rem; top: -4px; position: relative;">.</span>
+                    <span>July 23, 2016</span>
+                  </div>
+                </div>
+                <div class="w-30">
+                  <a href="#">
+                    <img width="100%"
+                      src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/flaunter-tz1EZulx3X4-unsplash-450x450.jpeg"
+                      alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="row-reverse">
+                <div class="w-70">
+                  <a href="#">
+                    <h3>Good Day To Take A Photo With Your Favorite Style</h3>
+                  </a>
+                  <div><a href="#"><span>Michael</span></a>
+                    <span
+                      style="margin-left: 5px; margin-right: 5px; font-size: 1.2rem; top: -4px; position: relative;">.</span>
+                    <span>July 23, 2016</span>
+                  </div>
+                </div>
+                <div class="w-30">
+                  <a href="#">
+                    <img width="100%"
+                      src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/racim-amr-OZ-HVuVXGOY-unsplash-450x450.jpeg"
+                      alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+    <div class="container">
+      <div class="d-flex-imp center">
+        <a href="#"><img class="footer--image"
+            src="https://jellywp.com/wp/shareblock02/wp-content/uploads/sites/10/2021/05/logo_w4.png" alt=""></a>
+      </div>
+      <div class="d-flex-imp center">
+        <a class="footer--abouse-us" href="#">About Us</a>
+        <a class="footer--abouse-us" href="#">Privacy Policy</a>
+        <a class="footer--abouse-us" href="#">Forums</a>
+      </div>
+      <div class="d-flex-imp copyright">
+        <p>© Copyright 2021 Jellywp. All rights reserved powered by
+          Jellywp</p>
+      </div>
+      <div class="d-flex-imp center">
+        <a href="#" style="width: 48px;"><i style="background-color: #45629f; color: white;"
+            class="fa-brands fa-brands--footer--border fa-facebook"></i></a>
+        <a href="#"><i style="background-color: #e02321; color: white;"
+            class="fa-brands fa-brands--footer--border fa-pinterest-p"></i></a>
+        <a href="#"><i style="background-color: #5eb2ef; color: white;"
+            class="fa-brands fa-brands--footer--border fa-twitter"></i></a>
+        <a href="#"><i style="background-color: #1ed760; color: white;"
+            class="fa-brands fa-brands--footer--border fa-spotify"></i></a>
+      </div>
+
+    </div>
+  </footer>
+  <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-custom-close="modal-1">
+      <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <header class="modal__header">
+          <div class="d-flex-imp searchbox">
+            <a href="#" style="width: 92%;"><i class="fa-light fa-magnifying-glass fa-lg fa-magnifying-glass--searchbox" style="margin-right: 0.3rem;"></i>
+              <label for="input--search"><input class="search--input" type="search" name="" id="input--search"></label></a>
+              <a class="xmark--close" href="#" data-custom-close="modal-1"><i class="fa-light fa-xmark fa-lg"></i></a>
+          </div>
+          <div class="search--result">
+            <a class="modal--search" href="#">
+              <h4>Best inspire dark photos</h4>
+            </a>
+            <a class="modal--search" href="#">
+              <h4>5 Simple Steps To A Happier, Healthier You</h4>
+            </a>
+            <a class="modal--search" href="#">
+              <h4>7 Steps to Get Professional Facial Results At Home</h4>
+            </a>
+            <a class="modal--search" href="#">
+              <h4>5 Holiday Outfit Ideas for Thanksgiving or Christmas</h4>
+            </a>
+            <a class="modal--search" href="#">
+              <h4>6 Romantic places You Want to Visit with Your Partner</h4>
+            </a>
+            <a class="modal--search" href="#">
+              <h4 style="padding-bottom: 1rem;">6 Self-Care Steps To Manage Your Stress</h4>
+            </a>
+          </div>
+        </header>
+        <main class="modal__content" id="modal-1-content">
+        </main>
+      </div>
+    </div>
+  </div>  
+
+
+
+
+
+  <script src="Assets/css/SCSS/off-canvas/hc-offcanvas-nav.js"></script>
+  <script src="Assets/js/splide.min.js"></script>
+  <script src="Assets/js/micromodal.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var Nav = new hcOffcanvasNav('.header-top--1 .navbar', {
+        // disableAt: 1200,
+        customToggle: '.toggle',
+        navTitle: 'All Categories',
+        levelTitles: true,
+        levelTitleAsBack: true
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide');
+      splide.mount();
+    });
+  </script>
+  <script>
+    const modeBtn = document.getElementById('mode');
+    modeBtn.onchange = (e) => {
+      if (modeBtn.checked === true) {
+        document.documentElement.classList.remove("light")
+        document.documentElement.classList.add("dark")
+        window.localStorage.setItem('mode', 'dark');
+      } else {
+        document.documentElement.classList.remove("dark")
+        document.documentElement.classList.add("light")
+        window.localStorage.setItem('mode', 'light');
+      }
+    }
+
+    const mode = window.localStorage.getItem('mode');
+    if (mode == 'dark') {
+      modeBtn.checked = true;
+      document.documentElement.classList.remove("light")
+      document.documentElement.classList.add("dark")
+    }
+
+    if (mode == 'light') {
+      modeBtn.checked = false;
+      document.documentElement.classList.remove("dark")
+      document.documentElement.classList.add("light")
+    }
+  </script>
+  <script>
+    MicroModal.init({
+      onShow: modal => console.info(`${modal.id} is shown`), // [1]
+      onClose: modal => console.info(`${modal.id} is hidden`), // [2]
+      openTrigger: 'data-custom-open', // [3]
+      closeTrigger: 'data-custom-close', // [4]
+      openClass: 'is-open', // [5]
+      disableScroll: true, // [6]
+      disableFocus: false, // [7]
+      awaitOpenAnimation: false, // [8]
+      awaitCloseAnimation: false, // [9]
+      debugMode: true // [10]
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link rel="shortcut icon" type="image/x-icon" href="https://ik.imagekit.io/mirrorskit/assets/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="https://ik.imagekit.io/mirrorskit/assets/img/favicon-16x16.png">
+  <title>Booking</title>
+  <base href="/">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <meta name="google-site-verification" content="0fknlp4I1AXYz8PB1CkWF2ExcPvCmcR-M3_p-kt4om8"/>
+</head>
+<body>
+  <input type="hidden" id="hfLatitude"/>
+  <input type="hidden" id="hfLongitude"/>
+  <app-root></app-root>
+
+<script src="runtime.f73cf1f72f2c0124.js" type="module"></script><script src="polyfills.2742fcf074d02ff6.js" type="module"></script><script src="main.1e59a12346ba090b.js" type="module"></script></body>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCOG6E5SOknPmpX-CvDMHYt7h4HoNPDFg&amp;libraries=places&amp;language=en"></script>
+
+<script type="text/javascript" src="assets/js/locationpicker.jquery.min.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YMD7PZZ1QP"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-YMD7PZZ1QP'); </script>
+
+
+<meta name="google-site-verification" content="0fknlp4I1AXYz8PB1CkWF2ExcPvCmcR-M3_p-kt4om8"/>
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K49TSFR');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K49TSFR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Snap Pixel Code --> <script type="text/javascript"> (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function() {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)}; a.queue=[];var s='script';r=t.createElement(s);r.async=!0; r.src=n;var u=t.getElementsByTagName(s)[0]; u.parentNode.insertBefore(r,u);})(window,document, 'https://sc-static.net/scevent.min.js'); snaptr('init', '8096f8d3-025e-47ee-b325-8b24d29747c0', { 'user_email': '_INSERT_USER_EMAIL_' }); snaptr('track', 'PAGE_VIEW'); </script> <!-- End Snap Pixel Code -->
+
+
+      <script>
+            (function(root) {
+                var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
+                ta.src = 'https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BSBV2HNMEKP3O7GV7J5G';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ta, s);
+            })(window);
+        </script>
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '528109831378540');
+  fbq('track', 'PageView');
+</script>
+
+<script type="text/javascript">
+
+  
+
+ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5dd9268743be710e1d1ec0d9/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+
+
+  jQuery( document ).ready(function($) {
+		$('.video').click(function() {
+			this.paused ? this.play() : this.pause();
+		});
+	});
+
+
+	$(function() {
+
+   
+		var $video = $('.video');
+			var $window = $(window);
+      if($video){
+     if($video.length>0){
+      $video[0].play();
+			$window.scroll(function() {
+				var $topOfVideo = $video.offset().top;
+				var $bottomOfVideo = $video.offset().top + $video.outerHeight();
+				var $topOfScreen = $window.scrollTop();
+				var $bottomOfScreen = $window.scrollTop() + $window.innerHeight();
+				if(($bottomOfScreen > $bottomOfVideo) && ($topOfScreen < $topOfVideo)){
+					$video[0].play();
+				} else {
+				$video[0].pause();
+			}
+
+		});
+     }
+  }
+	});
+  //  $(document).scroll(function() {
+  //   var y = $(this).scrollTop();
+  //   if (y > 500) {
+  //     $('.dv_fixed_menu_btm').fadeIn();
+  //   } else {
+  //     $('.dv_fixed_menu_btm').fadeOut();
+  //   }
+  // });
+  $(document).ready(function() {
+    const userAction = async () => {
+      
+      const response = await fetch('//api.ipify.org/?format=json');
+      const myJson = await response.json(); //extract JSON from the http response
+      localStorage.setItem("IP", myJson.ip);
+    }
+    $('body').on('hidden.bs.modal', function() {
+    if ($('.modal.show').length) {
+      $('body').addClass('modal-open');
+    }
+    else {
+      $('body').removeClass('modal-open');      
+    }
+  });
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 5,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+//     if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(showPosition);
+//   } else { 
+//    console.log("Geolocation is not supported by this browser.");
+//   }
+//   function showPosition(position) {
+   
+//     localStorage.setItem('currentLatitude',position.coords.latitude);
+//     localStorage.setItem('currentLongitude',position.coords.longitude);
+// }
+
+
+var mySwiper = new Swiper ('.swiper-container', {
+    speed: 1000,
+    loop: true,
+    effect: 'fade',
+      autoplay: {
+          delay: 9000,
+          waitForTransition: true,
+          disableOnInteraction: false,
+        },
+      flipEffect: {
+      rotate: 30,
+      slideShadows: false,
+    },
+      pagination: {
+        el: '.swiper-pagination',
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">'+'<svg class="fp-arc-loader" width="16" height="16" viewBox="0 0 16 16">'+
+              '<circle class="path" cx="8" cy="8" r="5.5" fill="none" transform="rotate(-90 8 8)" stroke="#4500ff"'+
+              'stroke-opacity="1" fill="#4500ff" stroke-width="1.5px"></circle>'+
+          '<circle cx="8" cy="8" r="3" fill="#4500ff" ></circle>'+
+              '</svg></span>';
+          },
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    })
+  })
+  var videos = document.getElementsByTagName("video"),
+fraction = 0.8;
+function checkScroll() {
+
+    for(var i = 0; i < videos.length; i++) {
+
+        var video = videos[i];
+
+        var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+            b = y + h, //bottom
+            visibleX, visibleY, visible;
+
+            visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+            visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+            visible = visibleX * visibleY / (w * h);
+
+            if (visible > fraction) {
+                video.play();
+            } else {
+                video.pause();
+            }
+
+    }
+
+}
+
+window.addEventListener('scroll', checkScroll, false);
+window.addEventListener('resize', checkScroll, false);
+(function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "hae16viq3h");
+  </script>
+  <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-875828008"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-875828008');
+</script>
+<!-- Event snippet for Mirrors-Book An Appointment conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-875828008/aBIDCPnO-pUBEKim0KED'});
+</script>
+</html>
+
